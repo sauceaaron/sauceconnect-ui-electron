@@ -1,0 +1,40 @@
+<html>
+<head>
+ 	<meta charset="UTF-8">
+ 	<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+ 	<title> Sauce Connect UI </title>
+ 	<link href="layout.css" rel="stylesheet" />
+
+</head>
+<body>
+	<div id="header">
+		<div style="float:left">
+			<img class="logo" src="images/saucelabs-logo.png"/>
+		</div>
+		<div style="min-width: 45rem;">
+			Sauce Connect&trade; Proxy Tunnel
+		</div>
+	</div>
+	
+	<div id="nav"> 
+		<ul>
+			<li> Login </li>
+			<li> Tunnels </li>
+			<li> Hosts </li>
+	</div>
+	<div id="main">
+		<div> Create new tunnel configuration </div>
+
+		<div> Existing tunnels </div>
+	</div>
+
+
+	<div id="footer">
+		<div>
+			We are using node <script>document.write(process.versions.node)</script>,
+			Chrome <script>document.write(process.versions.chrome)</script>,
+			and Electron <script>document.write(process.versions.electron)</script>.
+		</div>
+	</div>
+</body>
+</html>

@@ -1,9 +1,10 @@
 {
   "name": "sauceconnect-ui-electron",
-  "version": "1.0.0",
-  "description": "A cross platform visual interface form managing Sauce Connect Proxy Tunnels",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "A cross platform visual interface form managing Sauce Connect",
+  "main": "main.js",
   "scripts": {
+    "start": "electron main.js",
     "test": "mocha"
   },
   "repository": {
@@ -26,5 +27,13 @@
   "bugs": {
     "url": "https://github.com/sauceaaron/sauceconnect-ui-electron/issues"
   },
-  "homepage": "https://github.com/sauceaaron/sauceconnect-ui-electron#readme"
+  "homepage": "https://github.com/sauceaaron/sauceconnect-ui-electron#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "sinon": "^8.0.4"
+  },
+  "devDependencies": {
+    "electron": "^7.1.7"
+  }
 }
