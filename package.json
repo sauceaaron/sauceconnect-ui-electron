@@ -1,0 +1,30 @@
+{
+  "name": "sauceconnect-ui-electron",
+  "version": "1.0.0",
+  "description": "A cross platform visual interface form managing Sauce Connect Proxy Tunnels",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sauceaaron/sauceconnect-ui-electron.git"
+  },
+  "keywords": [
+    "Sauce",
+    "Labs",
+    "Sauce",
+    "Connect",
+    "Test",
+    "Automation",
+    "Proxy",
+    "Server",
+    "Tunnel"
+  ],
+  "author": "Aaorn Evans <worcestershire@saucelabs.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sauceaaron/sauceconnect-ui-electron/issues"
+  },
+  "homepage": "https://github.com/sauceaaron/sauceconnect-ui-electron#readme"
+}
