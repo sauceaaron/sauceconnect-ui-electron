@@ -30,7 +30,7 @@
   "homepage": "https://github.com/sauceaaron/sauceconnect-ui-electron#readme",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.0.0",
+    "mocha": "^10.2.0",
     "sinon": "^8.0.4"
   },
   "devDependencies": {
